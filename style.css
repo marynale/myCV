@@ -71,6 +71,14 @@ main section:last-child {
   border-bottom: none;
 }
 
+a {
+  color: #585858;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
 .course {
   display: -ms-flexbox;
   display: flex;
@@ -145,4 +153,7 @@ ul.job-description > li:before {
 
 footer {
  padding: 1em;
+ text-align: center;
+ background-color: #509e98;
+ color: white;
 }
