@@ -113,7 +113,7 @@ ul {
   margin: 0;
 }
 
-.skills .column ul {
+.skills .column ul, ul.job-description {
   list-style-type: none;
   padding: 0;
 }
@@ -128,8 +128,19 @@ ul {
   color: #A7B8BF;
 }
 
-.school {
+.school, .job-title {
   line-height: 2.8em;
+}
+
+.school span, .job-title span {
+  color: #889499;
+  text-decoration: underline;
+}
+
+ul.job-description > li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
 }
 
 footer {
