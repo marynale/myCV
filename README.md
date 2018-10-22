@@ -1,3 +1,7 @@
 ### Description
 
-Projekt to stworzenie własnego CV na stronie www za użyciem HTML i CSS.
+CV na stronie www za użyciem HTML i CSS  
+
+### Demo
+
+https://marynale.github.io/myCV/
