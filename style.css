@@ -16,7 +16,7 @@ section {
   padding: 1em;
 }
 
-header, main, footer {
+header main footer {
   margin: 0 auto;
 }
 
@@ -126,6 +126,10 @@ ul {
 
 .school span {
   color: #A7B8BF;
+}
+
+.school {
+  line-height: 2.8em;
 }
 
 footer {
