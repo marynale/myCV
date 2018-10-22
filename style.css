@@ -58,13 +58,42 @@ main {
   max-width: 1140px;
 }
 
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main section{
+  border-bottom: double;
+}
+
+main section:last-child {
+  border-bottom: none;
+}
+
 .course {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .course .title {
+  color: #509e98;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
 }
 
-.course .descrition {
+.course .description {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+  text-align: top;
+}
+
+.course .description p {
+padding-left: 1em;
 }
 
 .school span {
